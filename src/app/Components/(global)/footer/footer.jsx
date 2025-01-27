@@ -8,7 +8,7 @@ const FooterWrapper = () => {
     <div>
       <footer className={styles.footer}>
         <BlockOne />
-        {/* <BlockTwo /> */}
+        <BlockTwo />
       </footer>
     </div>
   );
