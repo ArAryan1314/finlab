@@ -24,11 +24,11 @@ const HeaderWrapper = () => {
             </div>
             {/* Navigation Menu */}
             <div className={styles.navMenu}>
-              <Link href="http://">Home</Link>
-              <Link href="http://">About</Link>
-              <Link href="http://">Features</Link>
-              <Link href="http://">Pages</Link>
-              <Link href="http://">Pricing</Link>
+              <Link href="/home-page">Home</Link>
+              <Link href="/about-page">About</Link>
+              <Link href="/features-page">Features</Link>
+              <Link href="/">Pages</Link>
+              <Link href="/pricing-page">Pricing</Link>
             </div>
             {/* Navigation Right */}
             <div className={styles.navRight}>
