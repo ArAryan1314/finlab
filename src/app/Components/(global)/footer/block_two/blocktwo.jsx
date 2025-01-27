@@ -7,15 +7,13 @@ const BlockTwo = () => {
         <div className="footer_details">
           <div className="col_one">
             <div className="title">
-              {" "}
               <Link href="/"> FinLab. </Link>
             </div>
             <div className="desc">
-              {" "}
               Our platform is designed to you do business
             </div>
             <div className="social">
-              <TiSocialDribbble />
+              <TiSocialDribbble /> <TiSocialDribbble />
             </div>
           </div>
         </div>
