@@ -23,7 +23,13 @@ const HeaderWrapper = () => {
               />
             </div>
             {/* Navigation Menu */}
-            <div className={styles.navMenu}></div>
+            <div className={styles.navMenu}>
+              <Link href="http://">Home</Link>
+              <Link href="http://">About</Link>
+              <Link href="http://">Features</Link>
+              <Link href="http://">Pages</Link>
+              <Link href="http://">Pricing</Link>
+            </div>
             {/* Navigation Right */}
             <div className={styles.navRight}>
               <div className={styles.cartIcon}>
