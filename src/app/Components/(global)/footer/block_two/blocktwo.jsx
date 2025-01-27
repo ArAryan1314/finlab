@@ -21,8 +21,8 @@ const BlockTwo = () => {
           </div>
 
           <div className={styles.col_two}>
-            <div className="title">pages</div>
-            <div className="list">
+            <div className={styles.title}>pages</div>
+            <div className={styles.list}>
               <ul>
                 <li>Home</li>
                 <li>About</li>
@@ -33,8 +33,8 @@ const BlockTwo = () => {
             </div>
           </div>
           <div className={styles.col_two}>
-            <div className="title">pages</div>
-            <div className="list">
+            <div className={styles.title}>pages</div>
+            <div className={styles.list}>
               <ul>
                 <li>Integration</li>
                 <li>Pricing</li>
@@ -44,8 +44,8 @@ const BlockTwo = () => {
             </div>
           </div>
           <div className={styles.col_two}>
-            <div className="title">Utility Pages</div>
-            <div className="list">
+            <div className={styles.title}>Utility Pages</div>
+            <div className={styles.list}>
               <ul>
                 <li>Style Guide</li>
                 <li>License</li>
@@ -55,6 +55,11 @@ const BlockTwo = () => {
               </ul>
             </div>
           </div>
+        </div>
+        <div className={styles.footer_copyright}>
+          © Copyright 2024 | Design & Developed By
+          <Link href="/">Onixtheme - License</Link>| Powered By
+          <Link href="/">Webflow</Link>
         </div>
       </div>
     </div>
