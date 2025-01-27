@@ -1,0 +1,58 @@
+.carasol {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1024px;
+  margin: auto;
+  width: max-content;
+
+  .marquee {
+    .logoMarque {
+      border: 1px solid #ccc;
+      padding: 10px;
+      margin: 10px;
+      border-radius: 5px;
+      animation: logoMarque 30s ease-in-out infinite;
+    }
+
+    .logoTwo {
+      border: 1px solid #ccc;
+      padding: 10px;
+      margin: 10px;
+      border-radius: 5px;
+      animation: logoTwo 30s ease-in-out infinite;
+    }
+  }
+}
+
+@keyframes logoMarque {
+  0% {
+    opacity: 1;
+    transform: translateX(-500px);
+  }
+
+  50% {
+    opacity: 1;
+    transform: translateX(500px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(-500px);
+  }
+}
+
+@keyframes logoTwo {
+  0% {
+    opacity: 1;
+    transform: translateX(500px);
+  }
+
+  50% {
+    opacity: 1;
+    transform: translateX(-500px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(500px);
+  }
+}

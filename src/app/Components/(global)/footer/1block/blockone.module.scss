@@ -1,0 +1,51 @@
+.blockone_wrapper {
+  // display: grid;
+  // grid-template-columns: 55% 35%;
+  // grid-gap: 20px;
+  background: url(./footerbg.jpg);
+  padding: 40px;
+  border-radius: 30px;
+
+  .review {
+    color: #6481f1;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 5px 17px;
+    display: inline-block;
+  }
+
+  .heroTitle {
+    max-width: 900px;
+    .money {
+      background: url(./money.svg);
+      background-size: 100%;
+      background-position: 50% 50%;
+      background-repeat: no-repeat;
+      padding: 35px;
+      margin: 20px;
+    }
+  }
+
+  .heroDesc {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    max-width: 450px;
+    margin: 20px 0px 30px auto;
+  }
+
+  .link_footer {
+    background-color: #000;
+    border-radius: 15px;
+    padding: 18px 40px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #fff;
+    letter-spacing: 1px;
+    font-family: inherit;
+    cursor: pointer;
+    margin-left: 64%;
+    text-align: center;
+  }
+}

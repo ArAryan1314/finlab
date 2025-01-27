@@ -1,0 +1,120 @@
+.heroWrapper {
+  background: url(../herobg.png);
+  padding: calc(100px + 5%) 5% 10% 5%;
+  text-align: center;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+
+  .heroContent {
+    max-width: 1024px;
+    margin: 0px auto;
+
+    .review {
+      color: #6481f1;
+      background-color: #fff;
+      border-radius: 10px;
+      margin-bottom: 15px;
+      padding: 5px 17px;
+      display: inline-block;
+    }
+    .heroTitle {
+      .bank {
+        background: url(../bank.svg);
+        background-size: 100%;
+        background-position: 50% 50%;
+
+        background-repeat: no-repeat;
+        padding: 35px;
+        margin: 20px;
+      }
+      .money {
+        background: url(../money.svg);
+        background-size: 100%;
+        background-position: 50% 50%;
+
+        background-repeat: no-repeat;
+        padding: 35px;
+        margin: 20px;
+      }
+    }
+
+    .heroDesc {
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 30px;
+      max-width: 950px;
+      margin: 20px auto 60px auto;
+    }
+
+    .heroEmail {
+      .btnText {
+        border: 1px solid #fff;
+        background-color: #fff;
+        color: #000;
+        border-radius: 15px;
+        margin-bottom: 0;
+        padding: 20px 40px 20px 20px;
+      }
+
+      .btnSubmit {
+        background-color: #000;
+        border-radius: 15px;
+        margin-left: 10px;
+        padding: 18px 40px;
+        font-weight: 600;
+        font-size: 20px;
+        color: #fff;
+        letter-spacing: 1px;
+        font-family: inherit;
+        cursor: pointer;
+      }
+
+      .btnSubmit:hover {
+        opacity: 0.7;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1279px) {
+  //   .heroWrapper {
+
+  //   }
+}
+
+@media screen and (max-width: 767px) {
+  //   .heroWrapper {
+  //   }
+}
+
+.slideUp {
+  animation: slideUp 2s ease 0s 1 normal forwards;
+}
+
+.slideUpOne {
+  animation: slideUp 3s ease 0s 1 normal forwards;
+}
+
+@keyframes slideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideUpOne {
+  0% {
+    opacity: 0;
+    transform: translateY(120px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

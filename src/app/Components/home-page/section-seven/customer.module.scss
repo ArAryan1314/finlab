@@ -1,0 +1,103 @@
+.customer_wrapper {
+  background-color: #ffffff;
+  background-image: url(/_next/static/media/bg1.a580dd4e.svg);
+  background-position: 50% 0%;
+  background-repeat: no-repeat;
+  background-size: auto;
+  padding: 5%;
+
+  .row_one {
+    text-align: center;
+    max-width: 750px;
+    margin: 0px auto 5% auto;
+  }
+
+  .row_two_wrapper {
+    .row_two_col {
+      display: grid;
+      grid-template-columns: repeat(3, 3fr);
+      grid-gap: 30px;
+
+      .col_one {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+      }
+
+      .col_two {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 40px;
+        background: url(./bgblack.jpg);
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-size: cover;
+        border-radius: 10px;
+        color: #fff;
+
+        .heading {
+          font-size: 24px;
+          line-height: 35px;
+          font-weight: 600;
+          padding: 0px 0px 40px 0px;
+          border-bottom: 1px solid #ffffff;
+          margin: 0px 0px 20px 0px;
+        }
+        .details {
+          display: grid;
+          align-items: center;
+          justify-content: space-around;
+          gap: 15px;
+          grid-template-columns: 20% 50% 20%;
+
+          .author_details {
+            .name {
+              font-weight: 600;
+            }
+            .designation {
+              font-size: 14px;
+            }
+          }
+
+          .rating {
+            color: #ffffff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            vertical-align: middle;
+            font-size: 20px;
+            font-weight: 500;
+            gap: 6px;
+          }
+        }
+      }
+
+      .col_three {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1279px) {
+  .customer_wrapper {
+    .row_two_wrapper {
+      .row_two_col {
+        grid-template-columns: repeat(2, 2fr) !important;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .customer_wrapper {
+    .row_two_wrapper {
+      .row_two_col {
+        grid-template-columns: repeat(1, 1fr) !important;
+      }
+    }
+  }
+}

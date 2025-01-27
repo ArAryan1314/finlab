@@ -1,0 +1,23 @@
+.partnerWrapper {
+  .hrLine {
+    height: 2px;
+    background-color: #dadee1;
+    position: relative;
+    margin-top: 10px;
+    max-width: 85%;
+    margin: auto;
+  }
+
+  .partnerContent {
+    padding: 5%;
+    text-align: center;
+    border-top: 1px solid #eaeaea;
+    margin: 8% auto;
+    max-width: 1200px;
+    border-bottom: 1px solid #eaeaea;
+
+    .desc {
+      margin-top: 10px;
+    }
+  }
+}

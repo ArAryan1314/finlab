@@ -1,0 +1,109 @@
+.navbar {
+  padding: 30px;
+  transition: background-color 0.3s;
+  position: fixed;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  z-index: 1000;
+
+  .navContainer {
+    .navContent {
+      display: grid;
+      grid-template-columns: 15% 65% 20%;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .navMenu {
+      grid-column-gap: 30px;
+      grid-row-gap: 30px;
+      justify-content: flex-start;
+      align-items: center;
+      padding: 10px 15px;
+      font-size: 16px;
+      display: flex;
+      font-weight: 500;
+
+      a:hover {
+        color: #0082f3;
+      }
+    }
+
+    .navRight {
+      display: flex;
+      align-items: center;
+      justify-content: end;
+      column-gap: 20px;
+
+      .cartIcon {
+        svg {
+          font-size: 22px;
+        }
+        .cNum {
+          background-color: #6481f1;
+          color: #fff;
+          top: -15px;
+          right: 5px;
+          position: relative;
+          font-size: 10px;
+          padding: 3px 5px;
+          border-radius: 10px;
+        }
+      }
+
+      button {
+        border: 1px solid #dbdee1;
+        border-radius: 10px;
+        padding: 12px 22px;
+        background-color: transparent;
+        transition: all 0.5s ease-in-out;
+        font-size: 18px;
+        font-family: inherit;
+        font-weight: 600;
+        cursor: pointer;
+
+        .content {
+          position: relative;
+          overflow: hidden;
+
+          .text {
+            transform: translateY(0%);
+          }
+
+          .hoverText {
+            transition: all 0.5s ease-in-out;
+            transform: translateY(0%);
+            position: absolute;
+            bottom: -100%;
+          }
+        }
+      }
+
+      button:hover {
+        .hoverText {
+          transform: translateY(-100%);
+          transition: all 1s ease-in-out;
+        }
+
+        .text {
+          transform: translateY(00%);
+          transition: all 1s ease-in-out;
+          opacity: 0;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1279px) {
+  .navContainer {
+    .navContent {
+      display: grid;
+      grid-template-columns: 50% 50% !important;
+    }
+
+    .navMenu {
+      display: none !important;
+    }
+  }
+}

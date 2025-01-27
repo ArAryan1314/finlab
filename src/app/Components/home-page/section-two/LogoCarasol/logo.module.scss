@@ -1,0 +1,39 @@
+.marquee {
+  max-width: 1800px;
+  overflow: hidden;
+  container-type: inline-size;
+
+  .marqueeTrack {
+    container-type: inline-size;
+    display: flex;
+    width: max-content;
+    align-items: center;
+    // justify-content: center;
+    width: max-content;
+    animation: myAnim 2s ease 0s 1 alternate-reverse forwards;
+
+    .marqueeItem {
+      grid-area: resting;
+      animation: myAnim 2s ease 0s 1 alternate-reverse forwards;
+      width: 1024px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid rgb(211, 211, 211);
+      background-color: rgba(255, 255, 255, 0.1);
+      color: #fff;
+    }
+  }
+}
+
+@keyframes marqueeItem {
+  0% {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
