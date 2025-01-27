@@ -19,13 +19,15 @@ const BlockOne = () => {
             </h1>
           </div>
 
-          <div className={`${styles.slideUp}  ${styles.heroDesc}`}>
-            Track the growth and engagement of your newsletter subscribers with
-            detailed analytics. Understand what works
-          </div>
+          <div className={styles.block_two}>
+            <div className={`${styles.slideUp}  ${styles.heroDesc}`}>
+              Track the growth and engagement of your newsletter subscribers
+              with detailed analytics. Understand what works
+            </div>
 
-          <div className={styles.link_footer}>
-            <Link href="/"> Free Trail</Link>
+            <div className={styles.link_footer}>
+              <Link href="/"> Free Trail</Link>
+            </div>
           </div>
         </div>
       </div>
