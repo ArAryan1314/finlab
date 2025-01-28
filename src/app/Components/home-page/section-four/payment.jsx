@@ -94,8 +94,8 @@ const PaymentContainer = () => {
                   src="./flag7.svg"
                   alt="Profile Picture"
                   className={styles.img}
-                  width={40}
-                  height={40}
+                  width={35}
+                  height={35}
                 />
                 English
               </div>
@@ -104,8 +104,8 @@ const PaymentContainer = () => {
                   src="./flag7.svg"
                   alt="Profile Picture"
                   className={styles.img}
-                  width={40}
-                  height={40}
+                  width={35}
+                  height={35}
                 />
                 USA
               </div>
@@ -114,8 +114,8 @@ const PaymentContainer = () => {
                   src="./flag7.svg"
                   alt="Profile Picture"
                   className={styles.img}
-                  width={40}
-                  height={40}
+                  width={35}
+                  height={35}
                 />
                 MeXico
               </div>
@@ -124,18 +124,8 @@ const PaymentContainer = () => {
                   src="./flag7.svg"
                   alt="Profile Picture"
                   className={styles.img}
-                  width={40}
-                  height={40}
-                />
-                South Africa
-              </div>
-              <div className={styles.map}>
-                <Image
-                  src="./flag7.svg"
-                  alt="Profile Picture"
-                  className={styles.img}
-                  width={40}
-                  height={40}
+                  width={35}
+                  height={35}
                 />
                 Indonesia
               </div>
@@ -144,10 +134,30 @@ const PaymentContainer = () => {
                   src="./flag7.svg"
                   alt="Profile Picture"
                   className={styles.img}
-                  width={40}
-                  height={40}
+                  width={35}
+                  height={35}
                 />
                 UAE
+              </div>
+              <div className={styles.map}>
+                <Image
+                  src="./flag7.svg"
+                  alt="Profile Picture"
+                  className={styles.img}
+                  width={35}
+                  height={35}
+                />
+                IreLand
+              </div>
+              <div className={styles.map}>
+                <Image
+                  src="./flag7.svg"
+                  alt="Profile Picture"
+                  className={styles.img}
+                  width={35}
+                  height={35}
+                />
+                South Africa
               </div>
             </div>
           </div>
