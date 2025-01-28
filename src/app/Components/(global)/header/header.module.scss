@@ -99,11 +99,17 @@
   .navContainer {
     .navContent {
       display: grid;
-      grid-template-columns: 50% 50% !important;
+      grid-template-columns: repeat(2, 2fr);
     }
 
     .navMenu {
       display: none !important;
+    }
+
+    .navRight {
+      .cartIcon {
+        display: none;
+      }
     }
   }
 }

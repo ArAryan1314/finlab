@@ -1,0 +1,91 @@
+.paymentWrapper {
+  padding: 0% 5%;
+
+  .rowOne {
+    text-align: center;
+    max-width: 750px;
+    margin: 0px auto 5% auto;
+  }
+
+  .imageColum {
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    grid-gap: 30px;
+
+    .imageCard {
+      border: 1px solid #dadee1;
+      border-radius: 20px;
+      padding: 30px;
+
+      .image {
+        overflow: hidden;
+        transition: all 1s ease-in-out;
+        position: relative;
+        width: 100%;
+        height: 220px;
+      }
+      .image:hover {
+        transform: scale(1.05);
+        transition: all 1s ease-in-out;
+      }
+
+      .heading {
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: 600;
+        margin: 10px 0px 10px 0px;
+        text-transform: capitalize;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1279px) {
+  .paymentWrapper {
+    .imageColum {
+      display: grid;
+      grid-template-columns: repeat(2, 2fr);
+      grid-gap: 30px;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .paymentWrapper {
+    .imageColum {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-gap: 20px;
+    }
+  }
+}
+
+.slideUp {
+  animation: slideUp 2s ease 0s 1 normal forwards;
+}
+
+.slideUpOne {
+  animation: slideUp 3s ease 0s 1 normal forwards;
+}
+
+@keyframes slideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideUpOne {
+  0% {
+    opacity: 0;
+    transform: translateY(120px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

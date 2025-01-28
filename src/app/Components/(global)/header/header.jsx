@@ -1,8 +1,8 @@
 import React from "react";
 import Image from "next/image";
 import styles from "./header.module.scss";
-
 import Link from "next/link";
+
 import { IoBagCheckOutline } from "react-icons/io5";
 
 const HeaderWrapper = () => {
@@ -24,11 +24,9 @@ const HeaderWrapper = () => {
             </div>
             {/* Navigation Menu */}
             <div className={styles.navMenu}>
-              <Link href="/home-page">Home</Link>
+              <Link href="/">Home</Link>
               <Link href="/about-page">About</Link>
               <Link href="/features-page">Features</Link>
-              <Link href="/">Pages</Link>
-              <Link href="http://">Pages</Link>
               <Link href="/pricing-page">Pricing</Link>
               <Link href="/contact-page">Contact us</Link>
             </div>

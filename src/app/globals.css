@@ -45,7 +45,7 @@ a {
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: 3.8rem;
   line-height: 4.5rem;
   font-weight: 600;
   text-wrap: balance;
@@ -53,14 +53,14 @@ h1 {
 
 h2 {
   font-size: 3rem;
-  line-height: 3.3rem;
+  line-height: 3.2rem;
   font-weight: 600;
   text-wrap: balance;
 }
 
 h3 {
-  font-size: 3rem;
-  line-height: 3rem;
+  font-size: 2.3rem;
+  line-height: 2.5rem;
   font-weight: 600;
   text-wrap: balance;
 }
@@ -112,7 +112,7 @@ i:hover {
 @media (max-width: 1279px) {
   h1 {
     font-size: 2rem;
-    line-height: 3rem;
+    line-height: 2.3rem;
     font-weight: 600;
     text-wrap: balance;
   }
@@ -125,8 +125,8 @@ i:hover {
   }
 
   h3 {
-    font-size: 2rem;
-    line-height: 3rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
     font-weight: 600;
     text-wrap: balance;
   }
