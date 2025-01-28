@@ -1,20 +1,20 @@
 import React from "react";
-import styles from "./pricing.module.scss";
+import styles from "./page.module.scss";
 import { IoRocket } from "react-icons/io5";
 import { FaArrowDown } from "react-icons/fa";
 
-const PricingRow = () => {
+const PricingRowOne = () => {
   return (
     <div>
       <div className={styles.pricing_wrapper}>
         <div className={`${styles.row_one}`}>
           <div className={`${styles.heading}`}>
-            <h2>Our pricing plan</h2>
+            <h1>Flexible options to fit your financial management</h1>
           </div>
           <div className={`${styles.desc}`}>
             <p>
-              Our platform helps your business in managing expenses. These are
-              some of the reasons why you should use our platform in business.
+              Finlab offers transparent and flexible pricing plans designed to
+              cater to individuals, families, and businesses.
             </p>
           </div>
         </div>
@@ -71,8 +71,8 @@ const PricingRow = () => {
                   </div>
                 </div>
                 <div className={styles.price}>
-                  <sup>$</sup> <span>$99 </span>
-                  /monthly <span className="reco"> Recomended</span>
+                  <sup>$</sup> <span>$69 </span>
+                  /monthly <span className={styles.reco}>Recommded</span>
                 </div>
                 <div className={styles.title}>What’s included:</div>
                 <div className={styles.list}>
@@ -135,4 +135,4 @@ const PricingRow = () => {
   );
 };
 
-export default PricingRow;
+export default PricingRowOne;
