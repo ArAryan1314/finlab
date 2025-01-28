@@ -15,7 +15,7 @@ const BlockOne = () => {
             <h1>
               Transform How You Manage Your
               <span className={styles.money}></span>
-              in a single place.
+              Money
             </h1>
           </div>
 

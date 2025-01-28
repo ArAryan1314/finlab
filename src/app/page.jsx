@@ -7,7 +7,6 @@ export default function Home() {
   return (
     <div className={styles.page}>
       <HomePage />
-      <AboutPage />
 
       {/* <main className={styles.main}></main> */}
     </div>
