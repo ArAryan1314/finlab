@@ -11,7 +11,7 @@ const ChooseUs = () => {
             <div className={`${styles.cHeading} ${styles.cdisplay}`}>
               <div className={styles.subHeading}>Why Choose Us</div>
               <div className={styles.heading}>
-                <h2> Easy, Simple, Affordable </h2>
+                <h3> Easy, Simple, Affordable </h3>
               </div>
             </div>
 

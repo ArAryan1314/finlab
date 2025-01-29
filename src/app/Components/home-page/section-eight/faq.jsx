@@ -10,7 +10,7 @@ const FaqContainer = () => {
       <div className={styles.faq_wrapper}>
         <div className={`${styles.col_one}`}>
           <div className={`${styles.heading}`}>
-            <h2>Frequently Asked Questions</h2>
+            <h3>Frequently Asked Questions</h3>
           </div>
           <div className={`${styles.desc}`}>
             <p>

@@ -30,7 +30,7 @@ const PaymentContainer = () => {
               Local and International Payments
             </div>
             <div className={`${styles.heading}`}>
-              <h2>Send money locally and internationally</h2>
+              <h3>Send money locally and internationally</h3>
             </div>
             <div className={`${styles.desc}`}>
               <p>
@@ -59,7 +59,7 @@ const PaymentContainer = () => {
         <div className={`${styles.rowThree}`}>
           <div className={`${styles.colOne}`}>
             <div className={`${styles.heading}`}>
-              <h2>Control your cashflow with insights</h2>
+              <h3>Control your cashflow with insights</h3>
             </div>
             <div className={`${styles.desc}`}>
               <p>Understand what works and supercharge your reach.</p>
@@ -76,7 +76,7 @@ const PaymentContainer = () => {
           </div>
           <div className={`${styles.col_two}`}>
             <div className={`${styles.heading}`}>
-              <h2>Stay up to speed with notifications</h2>
+              <h3>Stay up to speed with notifications</h3>
             </div>
             <div className={`${styles.desc}`}>
               <p>

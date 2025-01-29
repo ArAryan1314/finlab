@@ -1,5 +1,9 @@
 import styles from "./block_two.module.scss";
 import { TiSocialDribbble } from "react-icons/ti";
+import { FaFacebookF } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
+import { FaInstagramSquare } from "react-icons/fa";
+
 import Link from "next/link";
 
 const BlockTwo = () => {
@@ -15,8 +19,8 @@ const BlockTwo = () => {
               Our platform is designed to you do business
             </div>
             <div className={styles.social}>
-              <TiSocialDribbble /> <TiSocialDribbble /> <TiSocialDribbble />{" "}
-              <TiSocialDribbble />
+              <TiSocialDribbble /> <FaFacebookF /> <FaTwitter />
+              <FaInstagramSquare />
             </div>
           </div>
 
